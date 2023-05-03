@@ -25,6 +25,6 @@ foreach (var c in DigitCharArray)
 ```
 
 I seguenti controlli servono per verificare che l'utente abbia inserito correttamente tutti i dati:
-    - Nel primo if l'algoritmo controlla che la sequenza di numeri non sia maggiore della stringa o che sia minore di 0;
-    - Nel secono if l'argoritmo controlla che la sequenza di numeri non sia 0;
-    - Nel foreach e' presente un if che controlla che ogni carattare sia un numero (Digit).
+- Nel primo if l'algoritmo controlla che la sequenza di numeri non sia maggiore della stringa o che sia minore di 0;
+- Nel secono if l'argoritmo controlla che la sequenza di numeri non sia 0;
+- Nel foreach e' presente un if che controlla che ogni carattare sia un numero (Digit).
