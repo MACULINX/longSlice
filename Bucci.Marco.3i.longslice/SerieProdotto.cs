@@ -20,8 +20,8 @@ public static class LargestSeriesval
             if (!Char.IsDigit(c))
                 throw new ArgumentException();
         
-        //Dichiaro e inizializzo la variabile di ritorno "MaxVal"
-        int MaxVal = 0;
+        //Dichiaro e inizializzo la variabile di ritorno "retVal"
+        int retVal = 0;
 
         //Ciclo for per scorrere il vettore
         for (int i = 0; i <= DigitCharArray.Length - span; i++)
@@ -38,13 +38,13 @@ public static class LargestSeriesval
                 val *= digit;
             }
 
-            //Controllo che la variabile "val" sia maggiore di "MaxVal"
-            if (val > MaxVal)
-                //In caso positivo do a "MaxVal" il valore di "val"
-                MaxVal = val;
+            //Controllo che la variabile "val" sia maggiore di "retVal"
+            if (val > retVal)
+                //In caso positivo do a "retVal" il valore di "val"
+                retVal = val;
         }
-        //Ritorno "MaxVal"
-        return MaxVal;
+        //Ritorno "retVal"
+        return retVal;
     }
 
 }
