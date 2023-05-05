@@ -1,4 +1,4 @@
-#longSlice
+# longSlice
 
 LongSlice, e' un algoritmo che data una stringa e una sottostringa contigua di lunghezza X, riesce a calcolare il prodotto massimo.
 
